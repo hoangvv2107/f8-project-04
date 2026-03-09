@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/favicon_io/favicon.ico"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest" />
+
     <!-- embed font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,9 +45,37 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <div>
-        <input type="text">
-        <button>submit</button>
-    </div>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <!-- logo -->
+          <a href="#!" class="logo">
+            <img src="./assets/img/Logo.svg" alt="Logo" />
+          </a>
+
+          <!-- menu -->
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#!" class="menu__link menu__link--active">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#!" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#!" class="menu__link">Services & Rates</a>
+            </li>
+            <li class="menu__item">
+              <a href="#!" class="menu__link">Reviewa</a>
+            </li>
+            <li class="menu__item">
+              <a href="#!" class="menu__link">Contacts us</a>
+            </li>
+          </ul>
+
+          <!-- nav__btn -->
+          <a href="#!" class="btn nav__btn">Sign up</a>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
